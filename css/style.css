@@ -47,7 +47,7 @@ color: #212121;
 .header-contacts
 {
 font-weight: 500;
-font: size 14px;;
+font-size:14px;;
 line-height: calc(16 / 14);
 color: #757575;
 }
@@ -149,6 +149,7 @@ color: #757575;
 .footer 
 {
     background-color: #2F303A;
+    
 }
 .footer-logo
 {
@@ -161,15 +162,18 @@ color: #ffffff;
 }
 .address-street
 {
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
 color: #FFFFFF;
 }
-.address-email , .address-phone
+.address-email ,.address-phone
 {
-font-weight: normal;
+font-style:normal;
+font-family: 'Roboto', sans-serif;
+font-weight:400;
 font-size: 14px;
 line-height: calc(24 / 14);
 letter-spacing: 0.03em;
@@ -178,8 +182,7 @@ color: rgba(255, 255, 255, 0.6);
 /*---------------------------------------------------page PORTFOLIO---------------------------------*/
 .portfolio-menu-button
 {
-width: 101px;
-height: 26px;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: calc(26 / 16);
